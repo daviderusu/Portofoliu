@@ -1,0 +1,128 @@
+html {
+  background: black url(background.jpg) center center no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+.body {
+  display: block;
+  place-items: center;
+  margin: 20px;
+  font-family: inter, Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.5em;
+  @media (min-width: 500px) {
+    body {
+      display: grid;
+    }
+  }
+}
+
+.Container {
+  width: 90%;
+  margin: 2vh auto;
+  background: rgba(79, 109, 245, 0.8);
+  padding: 1rem;
+  border-radius: 2%;
+  font-size: clamp(1rem, 2vw, 2rem);
+  line-height: 1.5em;
+  @media (min-width: 450px) {
+    .Container {
+      margin: 4vw;
+      padding: 3rem;
+      border-radius: 2rem;
+    }
+  }
+  @media (min-width: 800px) {
+    .Container {
+      margin: 4vw;
+      padding: 3rem;
+      border-radius: 2rem;
+    }
+  }
+}
+.header {
+}
+
+.Avatar1 {
+  display: block;
+  width: 100px;
+  height: auto;
+  margin: 0.1em 1em 0;
+  border-radius: 50%;
+  @media (min-width: 380px) {
+    .Avatar {
+      float: left;
+    }
+  }
+  @media (min-width: 930px) {
+    .Avatar {
+      width: clamp; 130px, 14vw, 12rem;
+    }
+  }
+}
+.TitlulPagini {
+  display: block;
+  margin: 0;
+  font-size: clamp(2rem, 6vw, 4rem);
+  line-height: 1em;
+}
+.DescriereaPrincipalla {
+  display: block;
+  margin: 0.5 0 1.5em;
+  @medie (min-width: 500px) {
+    .DescrireaPrincipala {
+      margini-bottom: 0.5em;
+    }
+  }
+}
+
+.main {
+  clear: both;
+}
+
+.ListaLinkuri {
+  display: block;
+  margin: 0;
+  padding: 0;
+  border-top: 1px solid white;
+}
+.ListaItem {
+  display: block;
+  margin: 0;
+  padding: 0;
+  border-bottom: 1px solid #fff;
+}
+.ListaLink {
+  display: block;
+  padding: 0.5em;
+  color: #fff;
+  text-decoration: none;
+}
+.ListaLink:hover {
+  background: white;
+  color: black;
+}
+.ListaTitlu,
+.ListaText {
+  display: block;
+  margin: 0;
+  padding: 0;
+  border-top: 1px solid #fff;
+  font-size: 1em;
+  line-height: 1.5em;
+}
+.ListaText {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+ 
+  @media (min-width: 1800px){
+
+  }
+}
+
+.ListaLinkuri {
+  
+  grid-template-columns: 1fr 1fr;
+}
